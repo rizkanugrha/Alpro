@@ -133,8 +133,7 @@ int main()
 			int a = binarySearch(arr, n, cari);
             if (a != -1) {
                 cout << "Angka ditemukan pada index: " << a << endl;
-                cout << "Angka ditemukan pada urutan ke: " << a+1 << endl;
-            } else {
+               } else {
                 cout << "Angka tidak ditemukan." << endl;
             }
             cout << endl;
